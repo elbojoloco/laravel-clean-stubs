@@ -1,0 +1,34 @@
+{
+  "name": "elbojoloco/laravel-clean-stubs",
+  "description": "Laravel stubs without docblocks.",
+  "keywords": [
+    "laravel",
+    "stubs",
+    "clean",
+    "docblocks"
+  ],
+  "homepage": "https://github.com/elbojoloco/laravel-clean-stubs",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lucas Snel",
+      "homepage": "https://bojodev.io"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "laravel/framework": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Elbojoloco\\Stubs\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Elbojoloco\\Stubs\\StubServiceProvider"
+      ]
+    }
+  }
+}
