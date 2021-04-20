@@ -1,3 +1,6 @@
+[![Packagist Version](https://img.shields.io/packagist/v/elbojoloco/laravel-clean-stubs)](https://packagist.org/packages/elbojoloco/laravel-clean-stubs)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/elbojoloco/laravel-clean-stubs)](https://packagist.org/packages/elbojoloco/laravel-clean-stubs/stats)
+
 # Laravel Clean Stubs
 
 This package brings all of Laravel's stubs but without docblocks. That's it. Stubs are template files that are used by the framework's "make" command, e.g. `php artisan make:model`. This package is inspired by [zepfietje/laravel-stubs](https://github.com/zepfietje/laravel-stubs), the difference is that this package only removes docblocks.
